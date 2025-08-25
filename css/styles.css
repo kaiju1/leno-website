@@ -683,6 +683,59 @@ img {
   }
 }
 
+/* INNER HEADER */
+.inner-header {
+  background: #000 url('../images/header-background.jpg') center center/cover
+    no-repeat;
+  padding: 10rem 2rem 6rem;
+
+  .inner-header__container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.pricing {
+  padding: 10rem;
+
+  .pricing__container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    .pricing__title {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .pricing__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+      justify-content: space-between;
+      align-items: center;
+
+      .pricing__card {
+        .pricing__card-button {
+          padding: 0.5rem 2rem;
+          background-color: var(--primary-color);
+          border: 2px solid transparent;
+          color: #fff;
+          font-weight: 600;
+          border-radius: 50px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--primary-color);
+          }
+        }
+      }
+    }
+  }
+}
+
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) scale(1);
