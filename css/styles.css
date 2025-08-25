@@ -633,9 +633,15 @@ img {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
 
     .footer__about {
       .footer__title {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
       }
 
       .footer__description {
@@ -643,6 +649,11 @@ img {
     }
 
     .footer__links {
+      .footer__title {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
       .footer__links-list {
         .footer__links-item {
           .footer__links-link {
@@ -657,6 +668,10 @@ img {
     }
 
     .footer__socials {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+
       .footer__social-link {
         color: #9f9caf;
 

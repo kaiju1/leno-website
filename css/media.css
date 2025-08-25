@@ -110,6 +110,7 @@
     }
   }
 
+  /* download */
   .download {
     padding-top: 10rem;
     text-align: center;
@@ -127,6 +128,18 @@
           }
         }
       }
+    }
+  }
+
+  /* footer */
+  .footer {
+    font-size: 1rem;
+
+    .footer__container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 3rem;
+      max-width: 600px;
     }
   }
 }
