@@ -191,4 +191,15 @@
       }
     }
   }
+
+  .details-features {
+    .details-features__container {
+      .details-features__list {
+        .details-features__list-item {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
